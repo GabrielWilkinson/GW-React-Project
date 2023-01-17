@@ -1,3 +1,4 @@
+import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses";
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
     <div>
       <h2>Let's get started!</h2>
       <pe>This is also visible!</pe>
-      <Expenses items={expenses}/>
+     <Expenses items={expenses}/>
     </div>
   );
 }
