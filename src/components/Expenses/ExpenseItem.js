@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card'
+import ExpenseForm from '../NewExpense/ExpenseForm';
 
 const ExpenseItem = (props) => {
 

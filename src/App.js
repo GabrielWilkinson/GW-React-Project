@@ -1,6 +1,8 @@
 import React from 'react'
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 import Expenses from "./components/Expenses/Expenses";
+import ExpenseForm from './components/NewExpense/ExpenseForm';
+import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {
   const expenses = [
@@ -34,8 +36,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <pe>This is also visible!</pe>
+      <NewExpense/>
      <Expenses items={expenses}/>
     </div>
   );
